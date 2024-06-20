@@ -281,7 +281,7 @@ function Login() {
     return (
         <>
             <Header />
-            <div className='mt-4 container login-cont border border-3 shadow-lg'>
+            {/* <div className='mt-4 container login-cont border border-3 shadow-lg'>
                 {loading && (
                     <div className='col-md-12 mt-3 text-center'>
                         <div className="spinner-border text-primary" role="status">
@@ -321,7 +321,7 @@ function Login() {
                         </button>
                     </div>
                 </form>
-            </div>
+            </div> */}
             <div className="foot">
                 <Footer />
             </div>
