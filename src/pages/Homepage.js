@@ -62,7 +62,7 @@ function HomePage() {
         {/* Calling Header Component */}
             <Header />
             {/* Describing webpage structure */}
-            <div className="product d-flex flex-column align-items-center justify-content-center" style={{ backgroundColor: "#DCC9F7" }}>
+            {/* <div className="product d-flex flex-column align-items-center justify-content-center" style={{ backgroundColor: "#DCC9F7" }}>
                 <h1 className="heading p-4">Celebrate Every Moment Of Your Life</h1>
                 <h3>Check our Product in Search Bar</h3>
                 <div className="w-75">
@@ -94,15 +94,14 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="gif d-flex flex-column align-items-center justify-content-center ms-3 mt-4">
+            </div> */}
+            {/* <div className="gif d-flex flex-column align-items-center justify-content-center ms-3 mt-4">
                 <div className="row">
                     <div className="col">
                         <h3 className=" pt-4 fw-bold" style={{textAlign:"left", fontFamily:"sans-serif"}}>Shop our Popular Product.</h3>
                     </div>
                 </div>
                 <div className="row mt-4" >
-                    {/* Printing Six Product */}
                     {revenuedata.map((products)=>{
                         return(
                             <div onClick={() => ProductMain(products)} className="col-md-2 col-4 pt-3">
@@ -117,8 +116,8 @@ function HomePage() {
                         
                     })}
                 </div>
-            </div>
-            <div className="brands d-flex flex-column align-items-center justify-content-center mt-5">
+            </div> */}
+            {/* <div className="brands d-flex flex-column align-items-center justify-content-center mt-5">
                 <div className="row">
                     <div className="col-12" style={{fontFamily:"sans-serif"}}>
                         <h3 className="fw-bold pt-4">Our Brands You can Check in Search Bar</h3>
@@ -158,7 +157,7 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* Implementing footer */}
             <div className="foot">
                 <Footer />
